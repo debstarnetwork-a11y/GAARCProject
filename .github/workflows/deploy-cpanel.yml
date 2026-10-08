@@ -36,5 +36,5 @@ jobs:
           username: ${{ secrets.CPANEL_FTP_USERNAME }}
           password: ${{ secrets.CPANEL_FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: ./public_html/ # Or public_html/ if deploying to root domain
+          server-dir: ./IMRC/ # Domain gaarc.org points to /IMRC
           dangerous-clean-slate: false # Prevents deleting your api/ folder (chat.php)

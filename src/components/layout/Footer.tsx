@@ -22,15 +22,12 @@ export function Footer() {
       <div className="container-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
         {/* About GAARC */}
         <div className="flex flex-col gap-4">
-          <Link to="/" className="flex items-center gap-2">
-            {logoUrl ? (
-              <img src={logoUrl} alt="GAARC Logo" className="h-8 w-auto" />
-            ) : (
-              <>
-                <Globe className="w-6 h-6 text-imrc-accent" />
-                <span className="font-bold text-xl tracking-tight">GAARC</span>
-              </>
-            )}
+          <Link to="/" className="inline-block">
+            <img 
+              src={(logoUrl && !logoUrl.includes('Global-Security-Globe-Logo')) ? logoUrl : "https://i.postimg.cc/hP30Q9Fd/GAARC-Logo-01.png"} 
+              alt="GAARC" 
+              className="h-12 w-auto object-contain" 
+            />
           </Link>
           <p className="text-sm text-gray-300 leading-relaxed">
             The Global Anti-Identity Theft & Rehabilitation Commission — enlightening, 

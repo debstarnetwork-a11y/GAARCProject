@@ -40,20 +40,12 @@ export function Navbar() {
     >
       <div className="container-custom h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3 group">
-          {logoUrl ? (
-            <img src={logoUrl} alt="GAARC Logo" className="h-10 w-auto" />
-          ) : (
-            <>
-              <div className="text-white">
-                <Globe className="w-8 h-8 transition-transform group-hover:rotate-12" strokeWidth={2} />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-2xl leading-none text-white tracking-tight">GAARC</span>
-                <span className="text-[0.62rem] font-medium text-white/80 uppercase tracking-wider">Global Anti-Identity Theft Commission</span>
-              </div>
-            </>
-          )}
+        <Link to="/" className="flex items-center group">
+          <img 
+            src={(logoUrl && !logoUrl.includes('Global-Security-Globe-Logo')) ? logoUrl : "https://i.postimg.cc/hP30Q9Fd/GAARC-Logo-01.png"} 
+            alt="GAARC" 
+            className="h-14 md:h-16 w-auto object-contain transition-transform group-hover:scale-105" 
+          />
         </Link>
 
         {/* Desktop Nav */}

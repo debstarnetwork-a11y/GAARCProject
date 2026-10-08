@@ -27,7 +27,7 @@ const defaultSettings: Settings = {
   email: 'support@gaarc.org',
   phone: '+414028597',
   location: '96, Route de la Louvière\nGeneva\n1203 Switzerland',
-  logoUrl: '',
+  logoUrl: 'https://i.postimg.cc/hP30Q9Fd/GAARC-Logo-01.png',
   heroImageAbout: '',
   heroImageMission: '',
   heroImageVision: '',

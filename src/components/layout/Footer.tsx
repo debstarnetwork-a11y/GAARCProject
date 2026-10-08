@@ -44,6 +44,7 @@ export function Footer() {
             <li><Link to="/about" className="text-sm text-gray-300 hover:text-imrc-accent transition-colors">About Us</Link></li>
             <li><Link to="/gallery" className="text-sm text-gray-300 hover:text-imrc-accent transition-colors">Operations Gallery</Link></li>
             <li><Link to="/contact" className="text-sm text-gray-300 hover:text-imrc-accent transition-colors">Contact Support</Link></li>
+            <li><Link to="/verify/document" className="text-sm text-gray-300 hover:text-imrc-accent transition-colors">Document Verification</Link></li>
           </ul>
         </div>
 

@@ -1,4 +1,4 @@
-import { LayoutDashboard, Image as ImageIcon, MessageSquare, Edit3, Settings, LogOut, CheckCircle2, Save, Send, X, Mail, AlertCircle } from "lucide-react";
+import { LayoutDashboard, Image as ImageIcon, MessageSquare, Edit3, Settings, LogOut, CheckCircle2, Save, Send, X, Mail, AlertCircle, ShieldAlert } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import React, { useState, useRef, useEffect, useMemo } from "react";
 import { useSettings } from "../contexts/SettingsContext";
@@ -6,6 +6,7 @@ import { supabase } from "../lib/supabase";
 import { cn } from "@/lib/utils";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { format, subDays, eachDayOfInterval } from "date-fns";
+import { VictimRehabilitationSection } from "@/components/rehabilitation/VictimRehabilitationSection";
 
 export function AdminDashboard() {
   const navigate = useNavigate();
@@ -159,6 +160,12 @@ export function AdminDashboard() {
             <LayoutDashboard className={`w-5 h-5 ${activeTab === "Dashboard" ? "text-imrc-accent" : ""}`} /> Dashboard Overview
           </button>
           <button 
+            onClick={() => setActiveTab("Rehabilitation")}
+            className={`flex items-center gap-3 px-4 py-3 rounded-[8px] transition-colors w-full text-left font-medium ${activeTab === "Rehabilitation" ? "bg-white/10 text-white" : "text-gray-400 hover:text-white hover:bg-white/5"}`}
+          >
+            <ShieldAlert className={`w-5 h-5 ${activeTab === "Rehabilitation" ? "text-imrc-accent" : ""}`} /> Victim Rehabilitation
+          </button>
+          <button 
             onClick={() => setActiveTab("Gallery")}
             className={`flex items-center gap-3 px-4 py-3 rounded-[8px] transition-colors w-full text-left font-medium ${activeTab === "Gallery" ? "bg-white/10 text-white" : "text-gray-400 hover:text-white hover:bg-white/5"}`}
           >
@@ -207,7 +214,11 @@ export function AdminDashboard() {
         </header>
 
         <div className="p-8 max-w-7xl mx-auto w-full">
-          {activeTab !== "Dashboard" && activeTab !== "Gallery" && activeTab !== "Submissions" && activeTab !== "Settings" && activeTab !== "Content" && activeTab !== "Newsletter" && (
+          {activeTab === "Rehabilitation" && (
+            <VictimRehabilitationSection />
+          )}
+
+          {activeTab !== "Dashboard" && activeTab !== "Rehabilitation" && activeTab !== "Gallery" && activeTab !== "Submissions" && activeTab !== "Settings" && activeTab !== "Content" && activeTab !== "Newsletter" && (
             <div className="bg-white p-8 rounded-[12px] shadow-sm border border-gray-100 mb-8 text-center">
               <h2 className="text-xl font-semibold text-imrc-primary mb-2">{activeTab} Module</h2>
               <p className="text-imrc-muted">This module is currently in development. Full backend integration required.</p>

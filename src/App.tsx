@@ -14,6 +14,7 @@ import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { AdminLogin } from "./pages/AdminLogin";
 import { AdminDashboard } from "./pages/AdminDashboard";
+import { DocumentVerification } from "./pages/DocumentVerification";
 
 export default function App() {
   return (
@@ -27,6 +28,9 @@ export default function App() {
             <Route path="gallery" element={<Gallery />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="verify/document/:documentId" element={<DocumentVerification />} />
+            <Route path="verify/document" element={<DocumentVerification />} />
+            <Route path="verify" element={<DocumentVerification />} />
           </Route>
           
           {/* Admin Routes outside main layout */}

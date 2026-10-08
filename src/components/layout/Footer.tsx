@@ -20,21 +20,21 @@ export function Footer() {
   return (
     <footer className="bg-imrc-primary text-white pt-16">
       <div className="container-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-        {/* About IMRC */}
+        {/* About GAARC */}
         <div className="flex flex-col gap-4">
           <Link to="/" className="flex items-center gap-2">
             {logoUrl ? (
-              <img src={logoUrl} alt="IMRC Logo" className="h-8 w-auto" />
+              <img src={logoUrl} alt="GAARC Logo" className="h-8 w-auto" />
             ) : (
               <>
                 <Globe className="w-6 h-6 text-imrc-accent" />
-                <span className="font-bold text-xl tracking-tight">IMRC</span>
+                <span className="font-bold text-xl tracking-tight">GAARC</span>
               </>
             )}
           </Link>
           <p className="text-sm text-gray-300 leading-relaxed">
-            The International Monetary Rehabilitation Cooperation — enlightening, 
-            educating, and reforming victims of identity theft and financial abuse globally.
+            The Global Anti-Identity Theft & Rehabilitation Commission — enlightening, 
+            educating, and reforming victims of identity theft, cyber impersonation, and digital abuse globally.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export function Footer() {
             </div>
             <div className="flex flex-col gap-1 mt-2">
               <span className="font-medium text-white">Support Team</span>
-              <span className="text-xs text-imrc-secondary uppercase tracking-wider">Emergency & Rehab Fund</span>
+              <span className="text-xs text-imrc-secondary uppercase tracking-wider">Victim Rehabilitation Unit</span>
             </div>
             <div className="flex items-center gap-3 mt-1">
               <Mail className="w-4 h-4 text-imrc-accent shrink-0" />
@@ -76,7 +76,7 @@ export function Footer() {
         {/* Newsletter */}
         <div className="flex flex-col gap-4">
           <h4 className="font-semibold text-lg text-imrc-secondary">Stay Updated</h4>
-          <p className="text-sm text-gray-300">Subscribe to our briefings on global financial protection policies.</p>
+          <p className="text-sm text-gray-300">Subscribe to our alerts on identity protection standards and cyber awareness.</p>
           <form className="flex mt-2" onSubmit={handleSubscribe}>
             <input 
               type="email" 
@@ -102,7 +102,7 @@ export function Footer() {
       <div className="bg-[#04286B] py-6 mt-12 border-t border-white/10">
         <div className="container-custom flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-white/70">
-            © {new Date().getFullYear()} IMRC — The Global Monetary Cooperation. All rights reserved.
+            © {new Date().getFullYear()} GAARC — Global Anti-Identity Theft & Rehabilitation Commission. All rights reserved.
           </p>
         </div>
       </div>

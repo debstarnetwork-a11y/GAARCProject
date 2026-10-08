@@ -6,7 +6,7 @@ import { GoogleGenAI } from "@google/genai";
 
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT || 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   app.use(express.json());
 
@@ -24,7 +24,7 @@ async function startServer() {
       
       // We will maintain simple conversation structure or just prompt directly
       // For simplicity, we just pass the most recent history formatted.
-      let prompt = `You are the IMRC (International Monetary Rehabilitation Cooperation) AI Assistant. You help victims of identity theft and financial abuse. Be helpful, professional, and empathetic.\n\nUser says: ${message}`;
+      let prompt = `You are the GAARC (Global Anti-Identity Theft & Rehabilitation Commission) Assistant. You help victims of identity theft, cyber impersonation, and digital abuse. Be helpful, professional, and empathetic.\n\nUser says: ${message}`;
       
       const response = await ai.models.generateContent({
         model: "gemini-3.6-flash",

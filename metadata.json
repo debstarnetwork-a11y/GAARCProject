@@ -1,6 +1,6 @@
 {
   "name": "IMRC NGO Portal",
-  "description": "Official website for the International Monetary Rehabilitation Cooperation (IMRC), a global NGO supporting victims of identity theft and financial abuse.",
+  "description": "Official website for the Global Anti-Identity Theft & Rehabilitation Commission (GAARC), supporting victims of identity crimes and cyber impersonation.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

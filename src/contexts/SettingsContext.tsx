@@ -37,21 +37,21 @@ const defaultSettings: Settings = {
   teamMembers: [
     {
       name: "Anita D. Benz",
-      title: "Secretary for Emergency and Rehabilitation Fund",
+      title: "Secretary for Emergency Victim Rehabilitation Services",
       email: "serviceteamatm@gmail.com",
       initials: "AB",
       image: "https://i.ibb.co/5hK1jcC5/Anita-D-Benz.jpg"
     },
     {
       name: "Alfred Kammer",
-      title: "Director of the Europe Department, International Monetary Cooperation",
+      title: "Director of Regional Affairs, European Bureau",
       email: null,
       initials: "AK",
       image: "https://i.ibb.co/yBYb37DQ/Alfred-Karmer-01.jpg"
     },
     {
       name: "Kristalina Georgieva",
-      title: "IMF Managing Director",
+      title: "Honorary Advisory Delegate",
       email: null,
       initials: "KG",
       image: "https://i.ibb.co/twr6n85Z/Kristalina-Georgieva-01.jpg"
@@ -59,7 +59,7 @@ const defaultSettings: Settings = {
   ]
 };
 
-const STORAGE_KEY = 'imrc_app_settings';
+const STORAGE_KEY = 'gaarc_app_settings';
 
 function getInitialSettings(): Settings {
   try {

@@ -8,26 +8,26 @@ export function Vision() {
   const timelineEvents = [
     {
       year: "2024",
-      title: "Foundation & Global Partnerships",
-      description: "Establishing the core IMRC infrastructure and cementing foundational alliances with the IMF and other key governmental actors.",
+      title: "Foundation & Advocacy Alliances",
+      description: "Establishing the core GAARC outreach structure and forming foundational alliances with digital rights networks.",
       image: "https://i.ibb.co/SwF6jN02/2024-Vision.png"
     },
     {
       year: "2025",
       title: "Expansion of Rehabilitation Programs",
-      description: "Scaling our direct-to-victim psychological and financial recovery pathways across 50+ countries.",
+      description: "Scaling our direct-to-victim emotional and identity restoration pathways across 50+ countries.",
       image: "https://i.ibb.co/PzJDfG8D/2025-Vision.png"
     },
     {
       year: "2026",
       title: "Digital Identity Protection Initiative",
-      description: "Launching global tech-driven advocacy frameworks to preemptively stop systemic financial abuse networks.",
+      description: "Launching global tech-driven educational frameworks to preemptively stop systemic online impersonation.",
       image: "https://i.ibb.co/zVHfGbq2/2026-Vision.png"
     },
     {
       year: "2030",
       title: "Global Identity Theft Eradication Framework",
-      description: "Implementing a unified, worldwide standard for monetary rehabilitation and absolute identity security.",
+      description: "Implementing a unified, worldwide standard for victim rehabilitation and proactive identity security.",
       image: "https://i.ibb.co/RkRs8rRv/2030-Vision.png"
     }
   ];
@@ -61,9 +61,9 @@ export function Vision() {
             access to immediate, comprehensive, and dignified rehabilitation.
           </p>
           <p className="text-lg text-imrc-muted leading-relaxed">
-            IMRC aims to become the global standard-bearer for monetary rehabilitation, 
-            working hand-in-hand with institutions like the IMF, governmental bodies, 
-            and civil society to eradicate the devastating effects of financial identity abuse.
+            GAARC aims to become the global standard-bearer for identity rehabilitation, 
+            working hand-in-hand with civic institutions, technology leaders, 
+            and civil society to eradicate the devastating effects of synthetic identity theft and cyber impersonation.
           </p>
         </div>
       </section>

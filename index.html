@@ -3,10 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IMRC | The Global Monetary Cooperation</title>
-    <meta name="description" content="Official website for the International Monetary Rehabilitation Cooperation (IMRC), a global NGO supporting victims of identity theft and financial abuse." />
-    <meta property="og:title" content="IMRC | The Global Monetary Cooperation" />
-    <meta property="og:description" content="Official website for the International Monetary Rehabilitation Cooperation (IMRC), a global NGO supporting victims of identity theft and financial abuse." />
+    <script>
+      // Defensive fix for Chrome extensions attempting direct assignment to window.fetch
+      (function() {
+        try {
+          var _currentFetch = window.fetch;
+          var targets = [window, Object.getPrototypeOf(window), Window.prototype];
+          for (var i = 0; i < targets.length; i++) {
+            var target = targets[i];
+            if (target) {
+              try {
+                Object.defineProperty(target, 'fetch', {
+                  configurable: true,
+                  enumerable: true,
+                  get: function() { return _currentFetch; },
+                  set: function(val) { _currentFetch = val; }
+                });
+              } catch (err) {}
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <title>GAARC | Global Anti-Identity Theft & Rehabilitation Commission</title>
+    <meta name="description" content="Official website for the Global Anti-Identity Theft & Rehabilitation Commission (GAARC), an international non-governmental initiative protecting and supporting victims of identity crimes." />
+    <meta property="og:title" content="GAARC | Global Anti-Identity Theft & Rehabilitation Commission" />
+    <meta property="og:description" content="Official website for the Global Anti-Identity Theft & Rehabilitation Commission (GAARC), an international non-governmental initiative protecting and supporting victims of identity crimes." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
   </head>

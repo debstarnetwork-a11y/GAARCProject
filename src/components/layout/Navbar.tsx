@@ -42,15 +42,15 @@ export function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
           {logoUrl ? (
-            <img src={logoUrl} alt="IMRC Logo" className="h-10 w-auto" />
+            <img src={logoUrl} alt="GAARC Logo" className="h-10 w-auto" />
           ) : (
             <>
               <div className="text-white">
                 <Globe className="w-8 h-8 transition-transform group-hover:rotate-12" strokeWidth={2} />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-2xl leading-none text-white tracking-tight">IMRC</span>
-                <span className="text-[0.65rem] font-medium text-white/80 uppercase tracking-wider">The Global Monetary Cooperation</span>
+                <span className="font-bold text-2xl leading-none text-white tracking-tight">GAARC</span>
+                <span className="text-[0.62rem] font-medium text-white/80 uppercase tracking-wider">Global Anti-Identity Theft Commission</span>
               </div>
             </>
           )}

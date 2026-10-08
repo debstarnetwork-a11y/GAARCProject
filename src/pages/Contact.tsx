@@ -163,7 +163,7 @@ export function Contact() {
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-1">Organization</h4>
-                      <p className="text-sm text-gray-300">IMRC — The Global Monetary Cooperation</p>
+                      <p className="text-sm text-gray-300">GAARC — Global Anti-Identity Theft & Rehabilitation Commission</p>
                     </div>
                   </div>
 
@@ -192,7 +192,7 @@ export function Contact() {
                     </div>
                     <div>
                       <h4 className="text-lg font-semibold text-white mb-1">Support Email</h4>
-                      <p className="text-sm text-gray-300 mb-1">Emergency & Rehab Fund Team</p>
+                      <p className="text-sm text-gray-300 mb-1">Victim Rehabilitation Unit</p>
                       <a href={`mailto:${contactEmail}`} className="text-sm text-white hover:text-imrc-accent transition-colors flex items-center gap-2 mt-2">
                         <Mail className="w-4 h-4" /> {contactEmail}
                       </a>

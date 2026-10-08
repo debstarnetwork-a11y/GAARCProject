@@ -58,7 +58,7 @@ export function AdminLogin() {
             <ShieldCheck className="w-8 h-8 text-imrc-primary" />
           </div>
           <h2 className="mt-2 text-3xl font-extrabold text-imrc-primary tracking-tight">
-            IMRC Admin Portal
+            GAARC Admin Portal
           </h2>
           <p className="mt-2 text-sm text-imrc-muted">
             Secure access for authorized personnel only.

@@ -15,7 +15,7 @@ export function Home() {
       <section className="bg-imrc-primary pt-32 pb-6 px-4">
         <div className="container-custom text-center">
           <h1 className="text-white max-w-4xl mx-auto drop-shadow-md text-3xl md:text-5xl font-bold leading-tight">
-            Empowering Global Financial Rehabilitation
+            Empowering Global Identity Protection & Rehabilitation
           </h1>
         </div>
       </section>
@@ -55,13 +55,13 @@ export function Home() {
           <span className="text-white/80 text-sm font-medium uppercase tracking-wider">Trusted & Supported By</span>
           <div className="flex flex-wrap justify-center gap-4">
             <span className="bg-white/10 px-4 py-1.5 rounded-full text-xs font-semibold text-white border border-white/20 flex items-center gap-2">
-              <Globe2 className="w-3 h-3 text-imrc-accent" /> IMF Partner
+              <Globe2 className="w-3 h-3 text-imrc-accent" /> International Coalitions
             </span>
             <span className="bg-white/10 px-4 py-1.5 rounded-full text-xs font-semibold text-white border border-white/20 flex items-center gap-2">
-              <HeartHandshake className="w-3 h-3 text-imrc-accent" /> Global NGO
+              <HeartHandshake className="w-3 h-3 text-imrc-accent" /> Global NGOs
             </span>
             <span className="bg-white/10 px-4 py-1.5 rounded-full text-xs font-semibold text-white border border-white/20 flex items-center gap-2">
-              <Building2 className="w-3 h-3 text-imrc-accent" /> Governmental Allies
+              <Building2 className="w-3 h-3 text-imrc-accent" /> Community Advocates
             </span>
           </div>
         </div>
@@ -71,8 +71,8 @@ export function Home() {
       <section className="py-16 bg-white border-b border-gray-100">
         <div className="container-custom text-center">
           <p className="text-imrc-primary font-medium text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed">
-            The International Monetary Rehabilitation Cooperation (IMRC) — enlightening, 
-            educating, and reforming victims of identity theft and financial abuse worldwide.
+            The Global Anti-Identity Theft & Rehabilitation Commission (GAARC) — enlightening, 
+            educating, and reforming victims of identity theft, synthetic impersonation, and cyber exploitation worldwide.
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export function Home() {
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="mb-4">Our Core Initiatives</h2>
             <p className="text-imrc-muted">
-              Providing comprehensive support systems, legal guidance, and financial recovery 
+              Providing comprehensive support systems, digital privacy guidance, and identity restoration 
               pathways for individuals devastated by identity crimes.
             </p>
           </div>
@@ -121,8 +121,8 @@ export function Home() {
               <ShieldAlert className="w-10 h-10 text-imrc-secondary mb-6 group-hover:scale-110 transition-transform" />
               <h3 className="text-xl mb-3">Identity Theft Education</h3>
               <p className="text-imrc-muted text-sm mb-6 flex-1">
-                Raising global awareness through targeted resources, workshops, and training 
-                modules to prevent financial exploitation before it happens.
+                Raising global awareness through targeted digital hygiene resources, community workshops, and training 
+                modules to prevent data theft before it happens.
               </p>
               <Link to="/mission" className="text-imrc-accent font-semibold text-sm hover:text-imrc-primary transition-colors flex items-center gap-1 w-fit">
                 Read More <span className="text-lg leading-none">&rarr;</span>
@@ -134,8 +134,8 @@ export function Home() {
               <HeartHandshake className="w-10 h-10 text-imrc-secondary mb-6 group-hover:scale-110 transition-transform" />
               <h3 className="text-xl mb-3">Victim Rehabilitation</h3>
               <p className="text-imrc-muted text-sm mb-6 flex-1">
-                Direct intervention providing psychological support, secure financial 
-                recovery planning, and dignity restoration for those affected.
+                Direct intervention providing emotional guidance, profile reclamation assistance, 
+                and dignity restoration for those affected by cyber impersonation.
               </p>
               <Link to="/contact" className="text-imrc-accent font-semibold text-sm hover:text-imrc-primary transition-colors flex items-center gap-1 w-fit">
                 Get Support <span className="text-lg leading-none">&rarr;</span>
@@ -147,8 +147,8 @@ export function Home() {
               <Scale className="w-10 h-10 text-imrc-secondary mb-6 group-hover:scale-110 transition-transform" />
               <h3 className="text-xl mb-3">Global Policy Advocacy</h3>
               <p className="text-imrc-muted text-sm mb-6 flex-1">
-                Working hand-in-hand with governments to enact robust frameworks and 
-                legislation aimed at eradicating financial identity abuse.
+                Working with international non-profit coalitions and civic groups to advocate for 
+                protective standards aimed at curbing digital identity abuse.
               </p>
               <Link to="/mission" className="text-imrc-accent font-semibold text-sm hover:text-imrc-primary transition-colors flex items-center gap-1 w-fit">
                 Our Vision <span className="text-lg leading-none">&rarr;</span>
@@ -161,22 +161,22 @@ export function Home() {
       {/* Partners Section */}
       <section className="section-padding bg-imrc-bg-alt border-t border-gray-100">
         <div className="container-custom text-center">
-          <h2 className="mb-10 text-3xl">Our Global Partners & Supporters</h2>
+          <h2 className="mb-10 text-3xl">Our Global Alliances & Supporters</h2>
           <div className="flex flex-wrap justify-center gap-6 mb-10">
             <div className="bg-white px-6 py-4 rounded-[8px] shadow-sm font-semibold text-imrc-primary text-lg border-l-4 border-imrc-secondary flex items-center gap-3">
-               <Globe2 className="w-6 h-6 text-imrc-secondary" /> IMF
+               <Globe2 className="w-6 h-6 text-imrc-secondary" /> International Coalitions
             </div>
             <div className="bg-white px-6 py-4 rounded-[8px] shadow-sm font-semibold text-imrc-primary text-lg border-l-4 border-imrc-secondary flex items-center gap-3">
-               <Building2 className="w-6 h-6 text-imrc-secondary" /> Governmental Partners
+               <Building2 className="w-6 h-6 text-imrc-secondary" /> Regional Civil Societies
             </div>
             <div className="bg-white px-6 py-4 rounded-[8px] shadow-sm font-semibold text-imrc-primary text-lg border-l-4 border-imrc-secondary flex items-center gap-3">
-               <Users className="w-6 h-6 text-imrc-secondary" /> Non-State Actors
+               <Users className="w-6 h-6 text-imrc-secondary" /> Cyber Awareness Advocates
             </div>
           </div>
           <div className="inline-block bg-white p-6 rounded-[12px] shadow-card border border-imrc-accent-light max-w-3xl mx-auto">
             <p className="text-imrc-text font-medium">
               <span className="text-imrc-accent font-bold text-xl mr-2">"</span>
-              The IMF is an active partner and donor of IMRC's mission and vision, standing with us to protect global citizens.
+              Collaborating across borders to safeguard individual digital identities and rebuild dignity for survivors of online impersonation.
               <span className="text-imrc-accent font-bold text-xl ml-2">"</span>
             </p>
           </div>

@@ -13,7 +13,7 @@ export function AIChatWidget() {
     {
       id: "1",
       role: "assistant",
-      content: "Hello! I am the IMRC AI Assistant. How can I help you today?",
+      content: "Hello! I am the GAARC Assistant. How can I help you today with identity protection or victim rehabilitation?",
     },
   ]);
   const [input, setInput] = useState("");

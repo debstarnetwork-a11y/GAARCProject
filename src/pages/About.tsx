@@ -17,7 +17,7 @@ export function About() {
       >
         {heroImage && <div className="absolute inset-0 bg-imrc-primary/60 mix-blend-multiply" />}
         <div className="container-custom relative z-10 text-center">
-          <h1 className="text-white">About IMRC</h1>
+          <h1 className="text-white">About GAARC</h1>
         </div>
       </section>
 
@@ -27,14 +27,14 @@ export function About() {
           <div>
             <h2 className="mb-6">Our Legacy of Protection</h2>
             <p className="text-imrc-muted mb-4 leading-relaxed">
-              Founded on the principles of global financial security and human dignity, the 
-              International Monetary Rehabilitation Cooperation (IMRC) stands as a bulwark 
-              against the rising tide of identity theft and monetary abuse. 
+              Founded on the principles of individual privacy, digital security, and human dignity, the 
+              Global Anti-Identity Theft & Rehabilitation Commission (GAARC) stands as a trusted bulwark 
+              against the rising tide of identity theft, cyber impersonation, and personal data compromise. 
             </p>
             <p className="text-imrc-muted leading-relaxed">
-              We operate across international borders, partnering with sovereign governments, 
-              financial institutions, and global authorities to ensure that victims of financial 
-              crimes receive immediate rehabilitation, both financially and psychologically.
+              We operate across international borders, partnering with community advocates, 
+              educational groups, and cybersecurity specialists to ensure that victims of identity 
+              crimes receive immediate rehabilitation, guidance, and emotional support.
             </p>
           </div>
           {/* Legacy of Protection Image */}
@@ -92,11 +92,10 @@ export function About() {
             <div className="flex items-start gap-6">
               <Star className="w-10 h-10 text-imrc-secondary shrink-0 hidden sm:block" />
               <div>
-                <h3 className="text-2xl mb-4 text-imrc-primary">Institutional Support</h3>
+                <h3 className="text-2xl mb-4 text-imrc-primary">International Support</h3>
                 <p className="text-imrc-text font-medium leading-relaxed text-lg">
-                  IMRC has gained wide global support from both governmental and non-state actors, 
-                  including the <span className="text-imrc-accent font-bold">IMF</span>, 
-                  which is an active partner and donor of the cooperation's mission and vision.
+                  GAARC works alongside international non-profit coalitions and cyber safety organizations, 
+                  uniting civil society to protect vulnerable individuals and restore peace of mind for victims of identity compromise.
                 </p>
               </div>
             </div>

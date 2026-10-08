@@ -24,15 +24,15 @@ export function Mission() {
       <section className="section-padding bg-white">
         <div className="container-custom max-w-4xl mx-auto text-center">
           <p className="text-xl md:text-2xl font-medium text-imrc-primary leading-relaxed">
-            The International Monetary Rehabilitation Cooperation (IMRC) is an international 
-            entity established to enlighten, educate, reform, and rehabilitate victims of 
-            identity theft and abuse. 
+            The Global Anti-Identity Theft & Rehabilitation Commission (GAARC) is an international 
+            advocacy entity established to enlighten, educate, reform, and rehabilitate victims of 
+            identity theft, impersonation, and cyber abuse. 
           </p>
           <div className="w-24 h-1 bg-imrc-accent mx-auto my-10 rounded-full" />
           <p className="text-lg text-imrc-muted leading-relaxed">
-            As a non-governmental organization, IMRC is committed to providing comprehensive 
-            support systems, legal guidance, financial recovery pathways, and psychological 
-            rehabilitation for individuals and communities devastated by identity crimes.
+            As a non-governmental initiative, GAARC is committed to providing comprehensive 
+            support networks, privacy guidance, identity restoration pathways, and compassionate 
+            rehabilitation for individuals and communities affected by identity crimes.
           </p>
         </div>
       </section>
@@ -93,8 +93,8 @@ export function Mission() {
               <div>
                 <h3 className="mb-2">Enlighten</h3>
                 <p className="text-sm text-imrc-muted">
-                  Raising global awareness about the sophisticated methods used in financial 
-                  abuse and identity theft, bringing hidden crimes into the light.
+                  Raising global awareness about the deceptive methods used in cyber 
+                  exploitation and identity theft, bringing illicit tactics into the light.
                 </p>
               </div>
             </div>
@@ -107,8 +107,8 @@ export function Mission() {
               <div>
                 <h3 className="mb-2">Educate</h3>
                 <p className="text-sm text-imrc-muted">
-                  Providing critical resources, training modules, and accessible information 
-                  to help citizens proactively protect their financial identities.
+                  Providing critical privacy resources, training modules, and accessible information 
+                  to help citizens proactively protect their personal data and identity.
                 </p>
               </div>
             </div>
@@ -121,8 +121,8 @@ export function Mission() {
               <div>
                 <h3 className="mb-2">Reform</h3>
                 <p className="text-sm text-imrc-muted">
-                  Advocating for stronger international policies and institutional safeguards 
-                  to deter identity criminals and protect vulnerable populations.
+                  Advocating for stronger international standards and privacy safeguards 
+                  to deter identity criminals and protect vulnerable communities.
                 </p>
               </div>
             </div>
@@ -135,8 +135,8 @@ export function Mission() {
               <div>
                 <h3 className="mb-2">Rehabilitate</h3>
                 <p className="text-sm text-imrc-muted">
-                  Restoring victims' lives through direct psychological support, legal 
-                  counsel, and secure pathways to long-term financial recovery.
+                  Restoring victims' peace of mind through empathetic counseling, privacy 
+                  guidance, and structured pathways to full identity reclamation.
                 </p>
               </div>
             </div>

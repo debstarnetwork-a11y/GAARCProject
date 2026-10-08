@@ -1,6 +1,6 @@
 import { LayoutDashboard, Image as ImageIcon, MessageSquare, Edit3, Settings, LogOut, CheckCircle2, Save, Send, X, Mail, AlertCircle } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import { useState, useRef, useEffect, useMemo } from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import { useSettings } from "../contexts/SettingsContext";
 import { supabase } from "../lib/supabase";
 import { cn } from "@/lib/utils";
@@ -136,8 +136,8 @@ export function AdminDashboard() {
       {/* Sidebar */}
       <aside className="w-64 bg-imrc-primary text-white flex flex-col hidden md:flex shrink-0">
         <div className="p-6 border-b border-white/10 flex items-center gap-3">
-          <div className="w-8 h-8 rounded bg-imrc-secondary flex items-center justify-center font-bold">A</div>
-          <span className="font-semibold text-lg tracking-tight">IMRC Admin</span>
+          <div className="w-8 h-8 rounded bg-imrc-secondary flex items-center justify-center font-bold">G</div>
+          <span className="font-semibold text-lg tracking-tight">GAARC Admin</span>
         </div>
         
         <nav className="flex-1 px-4 py-6 flex flex-col gap-2 overflow-y-auto">

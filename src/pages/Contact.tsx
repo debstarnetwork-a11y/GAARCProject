@@ -191,10 +191,13 @@ export function Contact() {
                       <Handshake className="w-6 h-6 text-imrc-accent" />
                     </div>
                     <div>
-                      <h4 className="text-lg font-semibold text-white mb-1">Support Email</h4>
-                      <p className="text-sm text-gray-300 mb-1">Victim Rehabilitation Unit</p>
-                      <a href={`mailto:${contactEmail}`} className="text-sm text-white hover:text-imrc-accent transition-colors flex items-center gap-2 mt-2">
-                        <Mail className="w-4 h-4" /> {contactEmail}
+                      <h4 className="text-lg font-semibold text-white mb-1">Email Inquiries</h4>
+                      <p className="text-sm text-gray-300 mb-1">Victim Rehabilitation & Support</p>
+                      <a href={`mailto:${contactEmail || "support@gaarc.org"}`} className="text-sm text-white hover:text-imrc-accent transition-colors flex items-center gap-2 mt-1">
+                        <Mail className="w-4 h-4" /> {contactEmail || "support@gaarc.org"}
+                      </a>
+                      <a href="mailto:info@gaarc.org" className="text-sm text-white hover:text-imrc-accent transition-colors flex items-center gap-2 mt-2">
+                        <Mail className="w-4 h-4" /> info@gaarc.org
                       </a>
                     </div>
                   </div>

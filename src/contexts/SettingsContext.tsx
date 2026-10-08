@@ -24,7 +24,7 @@ export type Settings = {
 };
 
 const defaultSettings: Settings = {
-  email: 'serviceteamatm@gmail.com',
+  email: 'support@gaarc.org',
   phone: '+414028597',
   location: '96, Route de la Louvière\nGeneva\n1203 Switzerland',
   logoUrl: '',
@@ -38,7 +38,7 @@ const defaultSettings: Settings = {
     {
       name: "Anita D. Benz",
       title: "Secretary for Emergency Victim Rehabilitation Services",
-      email: "serviceteamatm@gmail.com",
+      email: "info@gaarc.org",
       initials: "AB",
       image: "https://i.ibb.co/5hK1jcC5/Anita-D-Benz.jpg"
     },

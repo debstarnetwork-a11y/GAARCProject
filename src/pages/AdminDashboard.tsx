@@ -74,6 +74,16 @@ export function AdminDashboard() {
 
   useEffect(() => {
     async function checkAuth() {
+      const localAuth = localStorage.getItem("gaarc_admin_auth");
+      if (localAuth) {
+        try {
+          const parsed = JSON.parse(localAuth);
+          if (parsed.authenticated) {
+            return; // Authenticated
+          }
+        } catch (e) {}
+      }
+
       const { data: { session } } = await supabase.auth.getSession();
       if (!session) {
         navigate('/admin');
@@ -119,6 +129,7 @@ export function AdminDashboard() {
   };
 
   const handleLogout = async () => {
+    localStorage.removeItem("gaarc_admin_auth");
     await supabase.auth.signOut();
     navigate('/admin');
   };

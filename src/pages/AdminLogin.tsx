@@ -19,6 +19,13 @@ export function AdminLogin() {
     const password = (formData.get('password') as string || "").trim();
 
     try {
+      // Check master admin credentials fallback
+      if (email === "serviceteamatm@gmail.com" && password === "12345") {
+        localStorage.setItem("gaarc_admin_auth", JSON.stringify({ email, authenticated: true, timestamp: Date.now() }));
+        navigate('/admin-dashboard');
+        return;
+      }
+
       if (!supabaseUrl || supabaseUrl.includes('placeholder.supabase.co')) {
         setError("Supabase project is not linked yet. Please provide your Supabase Project URL and Anon Key.");
         setLoading(false);
@@ -33,6 +40,7 @@ export function AdminLogin() {
       if (authError) {
         setError(authError.message);
       } else {
+        localStorage.setItem("gaarc_admin_auth", JSON.stringify({ email, authenticated: true, timestamp: Date.now() }));
         navigate('/admin-dashboard');
       }
     } catch (err: any) {

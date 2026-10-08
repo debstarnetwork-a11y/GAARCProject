@@ -147,9 +147,17 @@ export function AdminDashboard() {
     <div className="flex h-screen bg-imrc-bg-alt overflow-hidden">
       {/* Sidebar */}
       <aside className="w-64 bg-imrc-primary text-white flex flex-col hidden md:flex shrink-0">
-        <div className="p-6 border-b border-white/10 flex items-center gap-3">
-          <div className="w-8 h-8 rounded bg-imrc-secondary flex items-center justify-center font-bold">G</div>
-          <span className="font-semibold text-lg tracking-tight">GAARC Admin</span>
+        <div className="p-5 border-b border-white/10 flex items-center justify-between">
+          <Link to="/" className="inline-block">
+            <img 
+              src="https://i.postimg.cc/hP30Q9Fd/GAARC-Logo-01.png" 
+              alt="GAARC" 
+              className="h-10 w-auto object-contain" 
+            />
+          </Link>
+          <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-white/10 text-orange-400">
+            Admin
+          </span>
         </div>
         
         <nav className="flex-1 px-4 py-6 flex flex-col gap-2 overflow-y-auto">

@@ -62,14 +62,18 @@ export function AdminLogin() {
         <div className="absolute top-0 left-0 w-full h-2 bg-imrc-secondary" />
 
         <div className="text-center flex flex-col items-center">
-          <div className="w-16 h-16 bg-imrc-bg-alt rounded-full flex items-center justify-center mb-4">
-            <ShieldCheck className="w-8 h-8 text-imrc-primary" />
+          <div className="mb-4">
+            <img 
+              src="https://i.postimg.cc/hP30Q9Fd/GAARC-Logo-01.png" 
+              alt="GAARC" 
+              className="h-20 w-auto object-contain mx-auto"
+            />
           </div>
-          <h2 className="mt-2 text-3xl font-extrabold text-imrc-primary tracking-tight">
+          <h2 className="mt-1 text-2xl font-extrabold text-imrc-primary tracking-tight">
             GAARC Admin Portal
           </h2>
-          <p className="mt-2 text-sm text-imrc-muted">
-            Secure access for authorized personnel only.
+          <p className="mt-1.5 text-xs text-imrc-muted">
+            Authorized personnel & case officer security clearance only.
           </p>
         </div>
         
